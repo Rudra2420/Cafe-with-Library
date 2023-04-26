@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Old Standard TT' ;
+    box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+# Navbar Menu
+--------------------------------------------------------------*/
+@media only screen and (min-width:1200px){
+	.nav-item > .nav-link{padding: 5px 20px !important;
+		display: block !important;}
+}
+
+@media only screen and (max-width:992px){
+	.header-inner{background-color: white!important;
+	}
+	.nav-item > .nav-link{
+		color: black!important
+	}
+		.logo{
+			color: black !important;
+		}
+}
+
+
+.header{
+position: relative;
+width: 100%;
+}
+
+.header-inner{
+position: absolute;
+top: 0;
+left: 0;
+width:100%;
+z-index: 99;
+background-color: black;
+}
+
+.logo{
+color:white;
+font-family:satisfy;
+font-size:30px;
+}
+
+.nav-item .nav-link{
+display: block;
+line-height: 60px;
+text-transform: capitalize;
+font-size: 20px;
+font-weight: 500;
+color: white;
+transition: 0.15s;
+}
+
+.nav-item .nav-link:hover{
+	color: #edb77d !important;
+}
+
+
+.navbar-scroll{
+background-color: #ffffff;
+padding: 0;
+position: fixed;
+top:0;
+z-index: 99;
+box-shadow:0px 1px 10px rgba(0,0,0,0.4);
+transition-duration: 0.6s; 
+}
+
+.navbar-scroll .nav-item .nav-link{
+	color: black;
+}
+
+.navbar-scroll .logo{
+color: #000;
+font-weight: 500;
+}
+
+.category ul li a{
+	color: #000;
+	text-decoration: none;
+
+}
+
+
+.category ul li a:hover{
+	color: #edb77d !important;
+}
+
+ /* @media only screen and (min-width:768px){ 
+	list-group>.list-group-item{
+		text-align: center;
+}
+
+} */

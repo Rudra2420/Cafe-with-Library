@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.navbar-brand{
+    font-family: 'satisfy';
+    font-size: 35px;   
+}
+
+.container-fluid .row .sidebar .sidebar-sticky ul li{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: rgba(255,255,255,0.05);
+}
+
+.container-fluid .row .sidebar .sidebar-sticky ul li a{
+    display: block;
+}
+.container-fluid .row .sidebar .sidebar-sticky ul li a .fas{
+    width: 25px;
+}
+.container-fluid .row .sidebar .sidebar-sticky ul li :hover{
+    color: #be9c79;
+}
+
+.btn:hover{           
+    background: #be9c79;
+    
+}
+

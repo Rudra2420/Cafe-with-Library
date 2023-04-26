@@ -1,0 +1,43 @@
+
+
+.error{
+  
+  color:#FF0000;
+}
+
+.container {
+  position: absolute;
+  margin:20px;
+  width:89%;
+  padding: 50px;
+  background-color:white;
+}
+.h{
+  text-align: center;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+.bttn{
+  text-align: center;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}

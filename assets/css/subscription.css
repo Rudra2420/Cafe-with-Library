@@ -1,0 +1,147 @@
+* { 
+    box-sizing: border-box;
+}
+.cp-page-content{
+    padding-right: 20px;
+    padding-left: 20px;
+   
+}
+.main_package_block { 
+    /* float: left;  */
+    width: 100%;
+    border: 1px solid #d9d9d9; 
+    border-right: none;
+    font-family:calibri; 
+}
+.main_package_inner { 
+    float: left; width: 100%;
+    margin-bottom: 200px;
+}
+.main_package_block  .main_pack_name { 
+    font-size: 16px;
+    color: #000; 
+    background: #edb77d; 
+    text-align: center; 
+    padding: 15px 0; 
+    font-family: 'Times New Roman', Times, serif ; 
+    font-weight: 700; 
+    position: relative;
+}
+.package-label ul { 
+    list-style: outside none none; margin: 0; padding: 0;
+}
+.inner_package ul { 
+    list-style: outside none none; margin: 0; padding: 0; border-right: 1px solid #d9d9d9;
+}
+.package-label { 
+    float: left; width: 20%;
+}
+.package-right-block { 
+    float: left; width: 80%;
+}
+.package-label ul { 
+    background: #ededed;
+}
+.package-label li { 
+    font-size: 16px; font-weight: 700; line-height: 49px; padding: 0 18px;
+}
+.package-label li:last-child {
+    background: #f3f3f3; font-size: 0;
+}
+.package-right-block .inner_package { 
+    float: left; text-align: center; width: 50%;
+}
+.package-right-block .inner_package ul li { 
+    font-size: 14px; line-height: 49px; background: #fafafa;
+}
+.package-right-block .inner_package ul li:nth-child(2n){ 
+    background: #f3f3f3;
+}
+.package-right-block .inner_package ul li ins, .package-right-block .inner_package ul li span, .package-right-block .inner_package ul li del{ 
+    line-height: normal; display: inline; float: none; margin: 0;
+}
+.package-right-block .inner_package ul li ins{
+    text-decoration: none; font-weight: 700; margin-left: 5px;
+}
+.package-right-block .inner_package ul li span{
+    color:#682a90;
+}
+.package-right-block .inner_package ul li input[type="submit"], .package-right-block .inner_package ul li .conf_btn { 
+    background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(242,101,34) 0%, rgb(192,62,0) 100%);
+    background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(242,101,34) 0%, rgb(192,62,0) 100%); 
+    background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(242,101,34) 0%, rgb(192,62,0) 100%);	
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 12px; 
+    border: none; 
+    font-size: 14px;	
+    color: #fff; 
+    padding: 5px 25px;	
+    display: inline-block; 
+    cursor: pointer;	
+    line-height: normal; 
+    margin: 0 0 5px;
+}
+.package-right-block .inner_package ul li input[type="submit"]:hover, .package-right-block .inner_package ul li .conf_btn:hover { 
+    background: #fff none repeat scroll 0 0;
+     color: #ff4800;
+    }
+.package-right-block .inner_package ul li.already_subscribe label {
+    background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(127,127,127) 0%, rgb(72,72,72) 100%);
+    background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(127,127,127) 0%, rgb(72,72,72) 100%);
+    background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(127,127,127) 0%, rgb(72,72,72) 100%);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 12px; 
+    border: none; 
+    font-size: 14px;	
+    color: #fff; 
+    padding: 5px 25px;	
+    display: inline-block; 
+    cursor: no-drop;	
+    line-height: normal; 
+    margin: 0 0 5px;
+}
+
+/* @media only screen and (max-width: 1135px)
+{
+    .main_pack_section {
+        width: 100%;
+        overflow : auto;
+        margin-bottom: 30px;
+    }
+    .main_package_block{min-width:1168px; margin-bottom: 10px;}
+} */
+
+@media only screen and (max-width:1135px) {
+    .package_detail_sec .pack_content_main_div .content_subdiv1, 
+    .package_detail_sec .pack_content_main_div .content_subdiv2{color:#464646; font-size:13px; padding:8px 8px 8px 15px;}
+    .product_info_page .tab_table .req_scroll_tbl tbody { max-height: 283px; height: inherit;}
+    .main_pack_section { width: 100%; overflow: auto; margin-bottom: 30px;}
+    .main_package_block{min-width:1168px; margin-bottom: 10px;}
+    
+    }
+
+@media only screen and (max-width:768px){
+    .main_package_block { min-width: 100%; width: 100%; margin-top: 10%; }
+    .main_package_block .main_pack_name { padding: 15px 0;}
+    .package-label { display: none;}
+    .main_package_block { border: none;}
+    .package-right-block { width: 100%;}
+    .inner_package ul { border: 1px solid #d9d9d9;}
+    .package-right-block .inner_package { width: 100%!important; margin: 15px 0 7.5px;}
+
+    .package-right-block .inner_package ul li {line-height: normal;padding: 10px 10px 10px 42%;position: relative;text-align: center;}
+    .package-right-block .inner_package ul li:last-child { padding-left: 0;}
+    .package-right-block .inner_package ul li::before {background: #ededed none repeat scroll 0 0;font-size: 16px;font-weight: 700;height: 100%;left: 0;position: absolute;top: 0;width: 40%;padding: 10px;box-sizing: border-box;}
+    .package-right-block .inner_package ul li:nth-child(1)::before {content: "Subpackage Name";}
+    .package-right-block .inner_package ul li:nth-child(2)::before {content: "Package Price";}
+    .package-right-block .inner_package ul li:nth-child(3)::before {content: "Maximum Books";}
+    .package-right-block .inner_package ul li:nth-child(4)::before {content: "Books at a time";}
+    .package-right-block .inner_package ul li:nth-child(5)::before {content: "No of Month";}
+    .package-right-block .inner_package ul li:nth-child(6)::before {display: none;}
+    .package_desc_main li { width: 100%; min-height: inherit;}
+    .package_desc_main li:first-child { width: 100%; text-align: center;}
+}
+
+@media only screen and (max-width:320px){
+    .main_package_block{ min-width: 100%; width: 100%; margin-top: 10%;}
+}
